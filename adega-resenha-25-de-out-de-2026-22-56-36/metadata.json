@@ -1,0 +1,6 @@
+{
+  "name": "Adega Resenha",
+  "description": "Site oficial da Adega Resenha. Catálogo de bebidas, monte sua bebida personalizada, narguilés, combos exclusivos e pedidos direto pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
