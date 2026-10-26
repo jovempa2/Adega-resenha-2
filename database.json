@@ -1,0 +1,588 @@
+{
+  "settings": {
+    "storeName": "Adega Resenha",
+    "tagline": "O ponto de encontro da sua noite — Bebidas geladas, Copão e Narguilé",
+    "whatsapp": "5511999998888",
+    "phone": "(11) 99999-8888",
+    "address": "R. Honório Maia, 252 - Vila Zilda, São Paulo - SP, 03072-000",
+    "city": "São Paulo - SP",
+    "openingHours": "Segunda  a Domingo das 18:00 às 04:00",
+    "instagram": "@adegaresenhatatuape",
+    "pixKey": "contato@adegaresenha.com.br",
+    "pixKeyType": "E-mail",
+    "deliveryFee": 7,
+    "minOrderValue": 20,
+    "googleMapsUrl": "https://maps.google.com/?q=Consolacao+Sao+Paulo"
+  },
+  "adminPasswordHash": "adegaresenha2026",
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Gin Eternity 1L",
+      "brand": "Eternity",
+      "category": "gin",
+      "description": "O clássico das resenhas paulistas. Ideal para copão com gelo de sabor e energético.",
+      "volume": "1000ml",
+      "price": 24.9,
+      "available": true,
+      "image": "/src/assets/images/custom_drink_copao_1792974928549.jpg"
+    },
+    {
+      "id": "prod-2",
+      "name": "Gin Tanqueray London Dry 750ml",
+      "brand": "Tanqueray",
+      "category": "gin",
+      "description": "Gin importado destilado com quatro botânicos selecionados para drinques refinados.",
+      "volume": "750ml",
+      "price": 119.9,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-3",
+      "name": "Vodka Smirnoff Red 998ml",
+      "brand": "Smirnoff",
+      "category": "vodka",
+      "description": "Vodka clássica filtrada 10 vezes para máxima pureza nas misturas e copos.",
+      "volume": "998ml",
+      "price": 48,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-4",
+      "name": "Vodka Absolut Regular 1L",
+      "brand": "Absolut",
+      "category": "vodka",
+      "description": "Vodka premium sueca, sabor límpido e notas de grãos de trigo de inverno.",
+      "volume": "1000ml",
+      "price": 98.9,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-5",
+      "name": "Whisky Johnnie Walker Red Label 1L",
+      "brand": "Johnnie Walker",
+      "category": "whisky",
+      "description": "Blended Scotch Whisky vibrante, notas de especiarias e suave toque defumado.",
+      "volume": "1000ml",
+      "price": 94.9,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-6",
+      "name": "Whisky Jack Daniel's Old No. 7 1L",
+      "brand": "Jack Daniel's",
+      "category": "whisky",
+      "description": "Tennessee Whiskey suavizado em carvão de bordo, notas de carvalho e caramelo.",
+      "volume": "1000ml",
+      "price": 149.9,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-7",
+      "name": "Cerveja Heineken Long Neck 330ml",
+      "brand": "Heineken",
+      "category": "cervejas",
+      "description": "Cerveja puro malte gelada no ponto, amargor marcante e frescor inconfundível.",
+      "volume": "330ml",
+      "price": 8.5,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1608270119330-8a0715697669?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-8",
+      "name": "Cerveja Corona Extra 330ml",
+      "brand": "Corona",
+      "category": "cervejas",
+      "description": "Cerveja premium leve com toque cítrico refrescante, perfeita servida com limão.",
+      "volume": "330ml",
+      "price": 9,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-9",
+      "name": "Energético Baly Melancia 2L",
+      "brand": "Baly",
+      "category": "energeticos",
+      "description": "Sabor marcante de melancia gelada em garrafa econômica para toda a galera.",
+      "volume": "2000ml",
+      "price": 14,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-10",
+      "name": "Energético Red Bull Energy Drink 250ml",
+      "brand": "Red Bull",
+      "category": "energeticos",
+      "description": "O clássico que te dá asas. Gelado e pronto para consumo ou montagem de drinques.",
+      "volume": "250ml",
+      "price": 10.9,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-11",
+      "name": "Coca-Cola Original 2L",
+      "brand": "Coca-Cola",
+      "category": "refrigerantes",
+      "description": "Refrigerante em garrafa família, gelado e ideal para misturar com destilados.",
+      "volume": "2000ml",
+      "price": 11.5,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "prod-12",
+      "name": "Água Mineral Minalba Sem Gás 500ml",
+      "brand": "Minalba",
+      "category": "sem_alcool",
+      "description": "Água mineral pura e cristalina para hidratação durante o rolê.",
+      "volume": "500ml",
+      "price": 4,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "customizer": {
+    "maxIceFlavors": 2,
+    "baseDrinks": [
+      {
+        "id": "base-gin-10",
+        "name": "Gin de 10 — Eternity",
+        "price": 10,
+        "available": true,
+        "description": "A pedida oficial da Resenha. Dose generosa de Gin Eternity servida no copão de 700ml.",
+        "image": "/src/assets/images/custom_drink_copao_1792974928549.jpg"
+      },
+      {
+        "id": "base-gin-tanqueray",
+        "name": "Gin Tanqueray London Dry",
+        "price": 22,
+        "available": true,
+        "description": "Dose premium com botânicos nobres e final aromático impecável.",
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "base-vodka-smirnoff",
+        "name": "Vodka Smirnoff Red",
+        "price": 14,
+        "available": true,
+        "description": "Dose de vodka destilada e purificada para a combinação ideal de frutas e gelos.",
+        "image": "https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "base-vodka-absolut",
+        "name": "Vodka Absolut Original",
+        "price": 24,
+        "available": true,
+        "description": "Vodka sueca pura para quem busca sabor marcante e zero ressaca.",
+        "image": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "base-whisky-red",
+        "name": "Whisky Red Label",
+        "price": 19,
+        "available": true,
+        "description": "Dose de Scotch Whisky encorpado para copão tradicional.",
+        "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "base-whisky-jack",
+        "name": "Whisky Jack Daniel's Tennessee",
+        "price": 26,
+        "available": true,
+        "description": "Dose premium de Tennessee Whiskey com notas adocicadas de carvalho.",
+        "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "iceFlavors": [
+      {
+        "id": "ice-morango",
+        "name": "Gelo de Morango",
+        "price": 3.5,
+        "available": true,
+        "description": "Polpa de morango doce e congelada em cubo gigante"
+      },
+      {
+        "id": "ice-melancia",
+        "name": "Gelo de Melancia",
+        "price": 3.5,
+        "available": true,
+        "description": "Refrescância máxima com sabor tropical de melancia"
+      },
+      {
+        "id": "ice-maracuja",
+        "name": "Gelo de Maracujá",
+        "price": 3.5,
+        "available": true,
+        "description": "Acidez natural e sementes selecionadas de maracujá"
+      },
+      {
+        "id": "ice-coco",
+        "name": "Gelo de Coco",
+        "price": 3.5,
+        "available": true,
+        "description": "Água de coco pura congelada, o sabor favorito do copão"
+      },
+      {
+        "id": "ice-maca-verde",
+        "name": "Gelo de Maçã Verde",
+        "price": 3.5,
+        "available": true,
+        "description": "Toque cítrico e vibrante que equilibra com gin"
+      },
+      {
+        "id": "ice-agua",
+        "name": "Gelo de Água (Sem Sabor)",
+        "price": 0,
+        "available": true,
+        "description": "Gelo filtrado tradicional para manter a bebida gelada"
+      }
+    ],
+    "balyFlavors": [
+      {
+        "id": "baly-maracuja",
+        "name": "Baly Maracujá",
+        "price": 6,
+        "available": true,
+        "description": "Sabor tropical e doce de maracujá brasileiro"
+      },
+      {
+        "id": "baly-melancia",
+        "name": "Baly Melancia",
+        "price": 6,
+        "available": true,
+        "description": "A explosão de melancia mais pedida dos finais de semana"
+      },
+      {
+        "id": "baly-morango-pessego",
+        "name": "Baly Morango com Pêssego",
+        "price": 6,
+        "available": true,
+        "description": "Combinação frutada e aveludada"
+      },
+      {
+        "id": "baly-tropical",
+        "name": "Baly Tropical",
+        "price": 6,
+        "available": true,
+        "description": "Mix de manga, abacaxi e maracujá"
+      },
+      {
+        "id": "baly-maca-verde",
+        "name": "Baly Maçã Verde",
+        "price": 6,
+        "available": true,
+        "description": "Sabor cítrico marcante para contraste"
+      }
+    ],
+    "redBullFlavors": [
+      {
+        "id": "rb-tradicional",
+        "name": "Red Bull Tradicional",
+        "price": 11,
+        "available": true,
+        "description": "Lata clássica 250ml — energia e sabor autêntico"
+      },
+      {
+        "id": "rb-tropical",
+        "name": "Red Bull Tropical Edition",
+        "price": 12,
+        "available": true,
+        "description": "Frutas tropicais amarelas para drinques solares"
+      },
+      {
+        "id": "rb-melancia",
+        "name": "Red Bull Red Edition (Melancia)",
+        "price": 12,
+        "available": true,
+        "description": "Refrescante sabor de melancia gelada"
+      },
+      {
+        "id": "rb-acai",
+        "name": "Red Bull Purple Edition (Açaí)",
+        "price": 12,
+        "available": true,
+        "description": "Intensidade do açaí com energia pura"
+      },
+      {
+        "id": "rb-sugarfree",
+        "name": "Red Bull Sugarfree",
+        "price": 11,
+        "available": true,
+        "description": "Zero açúcar sem abrir mão da energia"
+      }
+    ],
+    "addOns": [
+      {
+        "id": "addon-fini-dentaduras",
+        "name": "Gomas Fini (Dentaduras/Beijos)",
+        "price": 2.5,
+        "available": true,
+        "description": "Doçura e visual descontraído no topo do copão"
+      },
+      {
+        "id": "addon-limao-siciliano",
+        "name": "Rodelas de Limão Siciliano",
+        "price": 2,
+        "available": true,
+        "description": "Fatias frescas para aroma cítrico perfumado"
+      },
+      {
+        "id": "addon-especiarias",
+        "name": "Especiarias Zimbro & Pimenta Rosa",
+        "price": 2.5,
+        "available": true,
+        "description": "Toque clássico de coquetelaria para realçar o gin"
+      },
+      {
+        "id": "addon-hortela",
+        "name": "Ramo de Hortelã Fresco",
+        "price": 1.5,
+        "available": true,
+        "description": "Aroma herbal fresco a cada gole"
+      }
+    ]
+  },
+  "hookahs": [
+    {
+      "id": "hk-1",
+      "name": "Narguilé Completo Amazon Pride Anodizado",
+      "brand": "Amazon Hookah",
+      "subcategory": "completos",
+      "description": "Setup completo com stem em alumínio anodizado de alta durabilidade, vaso transparente e mangueira lavável.",
+      "price": 289.9,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-2",
+      "name": "Narguilé Portátil Nay Mini Bolt",
+      "brand": "Nay",
+      "subcategory": "portateis",
+      "description": "Compacto e potente, perfeito para transporte no rolê com fluxo leve e vedação impecável.",
+      "price": 189,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-3",
+      "name": "Rosh Belli Hookah Cerâmica Refratária",
+      "brand": "Belli Hookah",
+      "subcategory": "rosh",
+      "description": "Cerâmica esmaltada de alto rendimento térmico que queima a essência por igual sem queimar a sessão.",
+      "price": 45,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-4",
+      "name": "Carvão de Coco Hexagonal CocoBR 1kg",
+      "brand": "CocoBR",
+      "subcategory": "carvao",
+      "description": "100% fibra natural de coco, sem cheiro químico, longa duração (acima de 70 min) e cinza reduzida.",
+      "price": 38,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-5",
+      "name": "Essência Zomo Strong Mint 50g",
+      "brand": "Zomo",
+      "subcategory": "essencias",
+      "description": "A menta mais famosa do Brasil, refrescância intensa e nuvens densas de fumaça.",
+      "price": 14,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-6",
+      "name": "Essência Adalya Love 66 50g",
+      "brand": "Adalya",
+      "subcategory": "essencias",
+      "description": "Mistura lendária de melancia, melão e menta refrescante, sucesso garantido na resenha.",
+      "price": 16.5,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-7",
+      "name": "Piteira Higiênica de Silicone Embalada",
+      "brand": "Resenha Hookah",
+      "subcategory": "piteiras",
+      "description": "Pacote com 10 unidades descartáveis higiênicas para dividir o narguilé com a galera em segurança.",
+      "price": 8,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "hk-8",
+      "name": "Pegador de Carvão Reforçado em Aço Inox",
+      "brand": "Hookah Pro",
+      "subcategory": "acessorios",
+      "description": "Pegador anatômico longo com dentes firmes para manipulação segura das brasas.",
+      "price": 22,
+      "available": true,
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    }
+  ],
+  "combos": [
+    {
+      "id": "combo-1",
+      "name": "Combo Resenha Gin & Tropical",
+      "description": "O combo mais vendido para começar o final de semana no estilo da casa.",
+      "itemsIncluded": [
+        "1 Garrafa Gin Eternity 1L",
+        "4 Latas Baly Melancia ou Maracujá 473ml",
+        "2 Gelos Saborizados de Coco",
+        "2 Copões de 700ml com canudos"
+      ],
+      "price": 59.9,
+      "originalPrice": 72,
+      "available": true,
+      "validUntil": "2026-12-31",
+      "image": "/src/assets/images/combos_party_kit_1792974929979.jpg"
+    },
+    {
+      "id": "combo-2",
+      "name": "Kit Vodka Smirnoff + 4 Red Bull",
+      "description": "Vodka premium com energéticos líderes de mercado para elevar a energia da noite.",
+      "itemsIncluded": [
+        "1 Garrafa Vodka Smirnoff 998ml",
+        "4 Latas Red Bull Tradicional ou Tropical 250ml",
+        "2 Gelos de Morango",
+        "Balde de gelo exclusivo"
+      ],
+      "price": 89.9,
+      "originalPrice": 105,
+      "available": true,
+      "validUntil": "2026-12-31",
+      "image": "/src/assets/images/combos_party_kit_1792974929979.jpg"
+    },
+    {
+      "id": "combo-3",
+      "name": "Combo Whisky Red Label & Coco",
+      "description": "Combinação clássica que agrada a todos com whisky escocês e sabor leve de água de coco.",
+      "itemsIncluded": [
+        "1 Garrafa Johnnie Walker Red Label 1L",
+        "4 Gelos artesanais de Coco 180ml",
+        "1 Garrafa de Energético Baly Tradicional 2L",
+        "Copos especiais de vidro"
+      ],
+      "price": 119,
+      "originalPrice": 138,
+      "available": true,
+      "validUntil": "2026-12-31",
+      "image": "/src/assets/images/combos_party_kit_1792974929979.jpg"
+    },
+    {
+      "id": "combo-4",
+      "name": "Kit Narguilé Sessão Completa",
+      "description": "Tudo o que você precisa para uma sessão de mais de duas horas sem interrupções.",
+      "itemsIncluded": [
+        "1 Caixa Carvão CocoBR 1kg",
+        "2 Essências à sua escolha (Adalya ou Zomo)",
+        "1 Rolo Alumínio Predator especial para rosh",
+        "10 Piteiras descartáveis higiênicas"
+      ],
+      "price": 69.9,
+      "originalPrice": 82,
+      "available": true,
+      "validUntil": "2026-12-31",
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Fachada e Espaço Noturno",
+      "category": "ambiente",
+      "description": "Fachada contemporânea iluminada na Consolação com atendimento de balcão e delivery.",
+      "image": "/src/assets/images/adega_facade_ambience_1792974930253.jpg"
+    },
+    {
+      "id": "gal-2",
+      "title": "Balcão de Drinques & Copões",
+      "category": "bebidas",
+      "description": "Nossos bartenders preparando copões gelados na hora com frutas frescas e gelos artesanais.",
+      "image": "/src/assets/images/hero_adega_resenha_1792974927845.jpg"
+    },
+    {
+      "id": "gal-3",
+      "title": "Copão Artesanal com Gelo Saborizado",
+      "category": "bebidas",
+      "description": "Gin Eternity com gelo saborizado de maracujá e morango, servido em copão especial.",
+      "image": "/src/assets/images/custom_drink_copao_1792974928549.jpg"
+    },
+    {
+      "id": "gal-4",
+      "title": "Lounge de Narguilé",
+      "category": "narguile",
+      "description": "Espaço acolhedor e ventilado com carvão de coco sempre em brasa viva.",
+      "image": "/src/assets/images/hookah_lounge_setup_1792974929241.jpg"
+    },
+    {
+      "id": "gal-5",
+      "title": "Kits e Baldes para Festas",
+      "category": "eventos",
+      "description": "Combos preparados para levar para sua festa ou curtir na mesa com os amigos.",
+      "image": "/src/assets/images/combos_party_kit_1792974929979.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1",
+      "code": "RES-1042",
+      "createdAt": "2026-10-25T22:47:03.667Z",
+      "customerName": "Lucas Mendes",
+      "customerPhone": "(11) 98765-4321",
+      "deliveryType": "delivery",
+      "address": {
+        "street": "Rua Frei Caneca",
+        "number": "890",
+        "neighborhood": "Consolação",
+        "complement": "Apt 42",
+        "reference": "Próximo ao shopping"
+      },
+      "paymentMethod": "pix",
+      "items": [
+        {
+          "type": "custom_drink",
+          "name": "Copão Resenha Personalizado",
+          "quantity": 2,
+          "unitPrice": 19.5,
+          "totalPrice": 39,
+          "customDetails": {
+            "baseDrink": "Gin de 10 — Eternity",
+            "ices": [
+              "Gelo de Morango",
+              "Gelo de Melancia"
+            ],
+            "energyDrink": "Baly Melancia",
+            "addOns": [
+              "Gomas Fini (Dentaduras/Beijos)"
+            ]
+          }
+        },
+        {
+          "type": "hookah",
+          "name": "Carvão de Coco Hexagonal CocoBR 1kg",
+          "quantity": 1,
+          "unitPrice": 38,
+          "totalPrice": 38
+        }
+      ],
+      "subtotal": 77,
+      "deliveryFee": 7,
+      "total": 84,
+      "status": "em_preparo",
+      "notes": "Por favor enviar com canudos reforçados."
+    }
+  ]
+}
